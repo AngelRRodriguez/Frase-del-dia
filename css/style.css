@@ -1,0 +1,29 @@
+.fotogrande {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url(../img/fotogrande.gif);
+  background-size: cover;
+  color: #ff005d;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.fotogrande h1 {
+	font-size: 40px;
+    font-family: 'Orbitron', sans-serif;
+}
+.fotogrande p {
+	font-size: 17px;
+	font-family: 'Quantico', sans-serif;
+  color: white; 
+}
+
+#mensaje-cambiante {
+    color: white;
+    margin-top: 160px;
+    font-family: 'Quantico', sans-serif;
+    font-size: 40px;
+}
